@@ -5,7 +5,7 @@ phases:
     runtime-versions:
       nodejs: 18
     commands:
-      - npm install
+      - node index.js
   build:
     commands:
       - echo "Build completed"
